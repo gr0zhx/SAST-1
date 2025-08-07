@@ -34,8 +34,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         with:
           args: >
-            -Dsonar.projectKey=gr0zhx_SAST-1
-            -Dsonar.organization=gr0zhx
+            -Dsonar.projectKey=agry-zharfa_SAST-1
+            -Dsonar.organization=agry-zharfa
             -Dsonar.java.binaries=.
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
