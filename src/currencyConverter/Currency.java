@@ -109,4 +109,7 @@ public class Currency {
     }
 
     public static Double convert(Double amount, Double exchangeValue) {
-        Double price =
+        Double price = amount * exchangeValue;
+        return Math.round(price * 100d) / 100d;
+    }
+}
