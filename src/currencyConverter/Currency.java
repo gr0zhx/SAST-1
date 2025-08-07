@@ -2,7 +2,6 @@ package currencyConverter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
 public class Currency {
 
     private String name;
