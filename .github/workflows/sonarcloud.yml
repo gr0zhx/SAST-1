@@ -25,7 +25,9 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java
-        run: javac Converter.java
+        run: javac src/currencyConverter/*.java
+
+
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarqube-scan-action@v5
